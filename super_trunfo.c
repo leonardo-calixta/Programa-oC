@@ -13,8 +13,8 @@ int main(){
  int populacao2 = 7.0;
  float area1 = 120.0;
  float area2 = 45.0;
- float PIB1 = 20;
- float PIB2 = 75;
+ float PIB1 = 20.0;
+ float PIB2 = 75.0;
  int pontos_t1 = 50;
  int pontos_t2 = 25; 
 
