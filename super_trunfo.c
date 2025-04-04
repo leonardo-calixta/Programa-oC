@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//Atributos das Cartas separados por '1' e '2' respectiviamente
+//Atributos das Cartas separados por 'A01' e 'B01' respectiviamente
 int main(){
 
  char estado1[50] = "São Paulo";
@@ -21,47 +21,47 @@ int main(){
  //Organização das cartas A e B
 
  printf("CARTA A: \n");
- scanf("Carta A = %s \n" , codigo1);
+ scanf("Carta A = %s \n" , &codigo1);
  printf("A carta A é: %s \n" , codigo1);
  printf("ESTADO:  \n");
- scanf("Estado = %s \n" , estado1);
+ scanf("Estado = %s \n" , &estado1);
  printf("O estado é: %s \n" , estado1);
  printf("CIDADE: \n");
- scanf("Cidade = %s \n" , cidade1);
+ scanf("Cidade = %s \n" , &cidade1);
  printf("A cidade é: %s \n" , cidade1);
  printf("POPULAÇÃO: \n");
- scanf("População = %d \n" , populacao1);
+ scanf("População = %d \n" , &populacao1);
  printf("A população é: %d \n" , populacao1);
  printf("ÁREA: \n");
- scanf("Área = %f \n" , area1);
+ scanf("Área = %f \n" , &area1);
  printf("A área é: %f \n" , area1);
  printf("PIB: \n");
- scanf("PIB = %f \n" , PIB1);
+ scanf("PIB = %f \n" , &PIB1);
  printf("O PIB é: %f \n" , PIB1);
  printf("PONTOS TURÍSTICOS: \n");
- scanf("Pontos turísticos = %d \n" , pontos_t1);
+ scanf("Pontos turísticos = %d \n" , &pontos_t1);
  printf("A quatidade de pontos turísticos é: %d \n" , pontos_t1);
  printf(" \n");
  printf("CARTA B: \n");
- scanf("Carta B = %s \n" , codigo2);
+ scanf("Carta B = %s \n" , &codigo2);
  printf("A carta B é: %s \n" , codigo2);
  printf("ESTADO:  \n");
- scanf("Estado = %s \n" , estado2);
+ scanf("Estado = %s \n" , &estado2);
  printf("O estado é: %s \n" , estado2);
  printf("CIDADE: \n");
- scanf("Cidade = %s \n" , cidade2);
+ scanf("Cidade = %s \n" , &cidade2);
  printf("A cidade é: %s \n" , cidade2);
  printf("POPULAÇÃO: \n");
- scanf("População = %d \n" , populacao2);
+ scanf("População = %d \n" , &populacao2);
  printf("A população é: %d \n" , populacao2);
  printf("ÁREA: \n");
- scanf("Área = %f \n" , area2);
+ scanf("Área = %f \n" , &area2);
  printf("A área é: %f \n" , area2);
  printf("PIB: \n");
- scanf("PIB = %f \n" , PIB2);
+ scanf("PIB = %f \n" , &PIB2);
  printf("O PIB é: %f \n" , PIB2);
  printf("PONTOS TURÍSTICOS: \n");
- scanf("Pontos turísticos = %d \n" , pontos_t2);
+ scanf("Pontos turísticos = %d \n" , &pontos_t2);
  printf("A quatidade de pontos turísticos é: %d \n" , pontos_t2);
 
 
